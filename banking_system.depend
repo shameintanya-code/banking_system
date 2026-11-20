@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1795159196 source:c:\users\gcc\desktop\tanya\banking_system\main.cpp
+	<iostream>
+	<string>
+
