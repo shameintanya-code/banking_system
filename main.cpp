@@ -1,9 +1,8 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
-// Global variables
+//variables
 int option;
 int option1;
 int currentUser = -1;
@@ -12,12 +11,10 @@ double depositeAmount;
 double withdrawal_amount;
 double amount_to_send;
 
-// Account information
+// Account information variables
 string name[3] = {"Tanya", "Shamein", "Amo"};
-string password[3] = {"ABC", "EFG", "HIJ"};
-
+string password[3] = {"ABC", "EFG", "HIJ"}
 int accountNumber[3] = {1234, 2468, 1357};
-
 double balance[3] = {2000, 1500, 3000};
 
 
@@ -101,13 +98,9 @@ void deposit()
         return;
     }
 
-    balance[currentUser] += depositeAmount;
-
     cout << "You have successfully deposited R"
          << depositeAmount << endl;
 
-    cout << "Your new balance is R"
-         << balance[currentUser] << endl;
 }
 
 
@@ -289,7 +282,7 @@ void menu()
 }
 
 
-// MAIN FUNCTION
+
 int main()
 {
     if (login())
